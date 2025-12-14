@@ -321,9 +321,7 @@ export default function Home() {
                   <img src={creatorLogo} alt="Ambuj Kumar Tripathi" className="h-full w-full object-cover" />
                 </div>
               </div>
-              <div className="absolute bottom-2 right-2 h-10 w-10 bg-primary rounded-xl flex items-center justify-center text-primary-foreground border-4 border-card">
-                <Code className="h-5 w-5" />
-              </div>
+
             </div>
           </div>
         </div>
