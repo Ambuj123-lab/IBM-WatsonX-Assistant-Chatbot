@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+
+    <title>WatsonX Chatbot - Ambuj Kumar Tripathi</title>
+    <meta name="description" content="Next-generation AI conversational interface powered by IBM WatsonX. Designed and developed by Ambuj Kumar Tripathi." />
+    
+    <meta property="og:title" content="WatsonX Chatbot Showcase" />
+    <meta property="og:description" content="Premium AI conversational interface showcase by Ambuj Kumar Tripathi." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://replit.com/public/images/opengraph.png" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@replit" />
+    <meta name="twitter:title" content="WatsonX Chatbot Showcase" />
+    <meta name="twitter:description" content="Premium AI conversational interface showcase by Ambuj Kumar Tripathi." />
+    <meta name="twitter:image" content="https://replit.com/public/images/opengraph.png" />
+
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "ab417c3b-5440-430a-bd23-07c062db2178", // The ID of this integration.
+        region: "au-syd", // The region your integration is hosted in.
+        serviceInstanceID: "f7c5f3bd-d0ff-4225-b9ab-c5df86168e55", // The ID of your service instance.
+        onLoad: async (instance) => { await instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
