@@ -69,9 +69,11 @@ export default function Home() {
                 <Button size="lg" className="h-14 px-8 text-base bg-primary hover:bg-primary/90 shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all hover:scale-105">
                   Start Conversation <MessageSquare className="ml-2 h-4 w-4" />
                 </Button>
-                <Button size="lg" variant="outline" className="h-14 px-8 text-base border-white/10 hover:bg-white/5 backdrop-blur-sm">
-                  View Architecture <Code className="ml-2 h-4 w-4" />
-                </Button>
+                <a href="#architecture">
+                  <Button size="lg" variant="outline" className="h-14 px-8 text-base border-white/10 hover:bg-white/5 backdrop-blur-sm">
+                    View Architecture <Code className="ml-2 h-4 w-4" />
+                  </Button>
+                </a>
               </div>
 
               <div className="pt-8 border-t border-white/5">

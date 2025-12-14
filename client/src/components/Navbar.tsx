@@ -26,9 +26,11 @@ export default function Navbar() {
           <a href="https://www.linkedin.com/in/ambuj-tripathi-042b4a118/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
             <Linkedin className="h-5 w-5" />
           </a>
-          <Button variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            Contact Me
-          </Button>
+          <a href="mailto:ambujtripathi111@gmail.com">
+            <Button variant="default" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+              Contact Me
+            </Button>
+          </a>
         </div>
       </div>
     </nav>
