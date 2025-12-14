@@ -2,6 +2,8 @@
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-View_App-success?style=for-the-badge&logo=netlify)](https://ambuj-watsonx-assistant.netlify.app/)
 
+**Live Demo:** [https://ambuj-watsonx-assistant.netlify.app/](https://ambuj-watsonx-assistant.netlify.app/)
+
 ![Banner](https://capsule-render.vercel.app/api?type=waving&color=0f62fe&height=300&section=header&text=WatsonX%20Assistant&fontSize=90&animation=fadeIn&fontAlignY=38&desc=Enterprise%20Grade%20AI%20Conversational%20Interface&descAlignY=51&descAlign=50)
 
 <div align="center">
