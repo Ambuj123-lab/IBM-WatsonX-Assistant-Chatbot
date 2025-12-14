@@ -15,7 +15,7 @@ export default function Navbar() {
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-muted-foreground">
           <a href="#features" className="hover:text-primary transition-colors">Capabilities</a>
-          <a href="#demo" className="hover:text-primary transition-colors">Live Demo</a>
+          <a href="https://ambuj-ai-profile.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Live Demo</a>
           <a href="#about" className="hover:text-primary transition-colors">Creator</a>
         </div>
 
