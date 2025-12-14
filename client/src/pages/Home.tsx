@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import { Bot, Brain, Shield, Zap, MessageSquare, Code, Database, Sparkles, Send, Cpu } from "lucide-react";
 import heroImage from "@assets/generated_images/abstract_ai_data_network_visualization_in_deep_blue_and_black.png";
+import creatorLogo from "@assets/creator_logo.png";
 import { useState } from "react";
 
 export default function Home() {
@@ -315,13 +316,12 @@ export default function Home() {
             </div>
 
             <div className="shrink-0 relative">
-              <div className="h-40 w-40 rounded-full border-2 border-primary p-2">
-                <div className="h-full w-full rounded-full bg-muted flex items-center justify-center overflow-hidden">
-                  {/* Placeholder for Ambuj's actual photo */}
-                  <span className="text-4xl font-bold text-muted-foreground">AK</span>
+              <div className="h-40 w-40 rounded-2xl border-2 border-primary p-2">
+                <div className="h-full w-full rounded-xl bg-muted flex items-center justify-center overflow-hidden">
+                  <img src={creatorLogo} alt="Ambuj Kumar Tripathi" className="h-full w-full object-cover" />
                 </div>
               </div>
-              <div className="absolute bottom-2 right-2 h-10 w-10 bg-primary rounded-full flex items-center justify-center text-primary-foreground border-4 border-card">
+              <div className="absolute bottom-2 right-2 h-10 w-10 bg-primary rounded-xl flex items-center justify-center text-primary-foreground border-4 border-card">
                 <Code className="h-5 w-5" />
               </div>
             </div>
